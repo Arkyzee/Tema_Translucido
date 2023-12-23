@@ -1,6 +1,5 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(	BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
-
 :root{
 	/*fonte */
 	--fonte: "gg sans", "Noto Sans";
@@ -19,7 +18,7 @@
 	--tao_escuro_que_tu_nem_ve:	120, 120, 120, 100;
 
     /*Plano de fundo               R   G   B   A */
-    --background:                  0 , 40, 50, 0.4;                                         	                                         
+    	--background:                  0 , 40, 50, 0.4;                                         	                                         
 	--background_escurecimento:    0 , 0 , 0 , 0.1;
 	--background_janela_flutante:  0 ,190,190, 0.3;
 
@@ -44,9 +43,7 @@
 	--backgroundtertiary_v:			var(--backgroundtertiary_s, var(--background));
 	--backgroundfloating_v:			var(--backgroundfloating_s, var(--background_janela_flutante));
 }	
-.theme-light:not(.userProfileOuterThemed__6eb84),
-.theme-dark:not(.userProfileOuterThemed__6eb84),
-.theme-amoled:not(.userProfileOuterThemed__6eb84) {
+.theme-light:not(.userProfileOuterThemed__6eb84), .theme-dark:not(.userProfileOuterThemed__6eb84), .theme-amoled:not(.userProfileOuterThemed__6eb84) {
 	--text-positive: rgb(var(--successcolor_v));
 	--text-warning: rgb(var(--warningcolor_v));
 	--text-danger: rgb(var(--dangercolor_v));
@@ -1968,8 +1965,8 @@ img[src='/assets/387a7c504c96b992872d.svg'] {
 /* ~~~~		9.		USERSETTINGS					~~~~ */
 
 #app-mount .customContainer__93c7c::before {
-	box-shadow: 0 1px 4px rgba(0,0,0,.2);
-	border-bottom: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 #app-mount .notice__88b94 {
