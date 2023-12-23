@@ -17,9 +17,13 @@
 	--tao_escuro_que_tu_nem_ve:	120, 120, 120, 100;
 
     /*Plano de fundo               R   G   B   A */
-    	--background:                  0 , 40, 50, 0.4;                                         	                                         
-	--background_escurecimento:    0 , 0 , 0 , 0.1;
-	--background_janela_flutante:  0 ,190,190, 0.3;
+    	--background:				;                                        	                                         
+	--background_principal:                	;
+	--background_primario:                	;
+	--background_secundario:               	;
+	--background_secundario_alt:		;
+	--background_terciario:			;
+	--background_janela_flutante:  		;
 
 	--font_v:					var(--font_s, var(--fonte));
 	
@@ -36,7 +40,7 @@
 	--textdarkest_v:			var(--textdarkest_s, var(--tao_Escro_que_tu_nem_ve));
 	
 	--backgroundaccent_v:			var(--backgroundaccent_s, var(--background_principal));
-	--backgroundprimary_v:			var(--backgroundprimary_s, var(--background_escurecimento));
+	--backgroundprimary_v:			var(--backgroundprimary_s, var(--background_primario));
 	--backgroundsecondary_v:		var(--backgroundsecondary_s, var(--backgroundsecundario));
 	--backgroundsecondaryalt_v:		var(--backgroundsecondaryalt_s, var(--backgroundsecundario_alt));
 	--backgroundtertiary_v:			var(--backgroundtertiary_s, var(--background));
