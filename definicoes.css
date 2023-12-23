@@ -17,7 +17,6 @@
 	--tao_escuro_que_tu_nem_ve:	120, 120, 120, 100;
 
     /*Plano de fundo               R   G   B   A */
-    	--background:				;                                        	                                         
 	--background_principal:                	;
 	--background_primario:                	;
 	--background_secundario:               	;
@@ -43,7 +42,7 @@
 	--backgroundprimary_v:			var(--backgroundprimary_s, var(--background_primario));
 	--backgroundsecondary_v:		var(--backgroundsecondary_s, var(--backgroundsecundario));
 	--backgroundsecondaryalt_v:		var(--backgroundsecondaryalt_s, var(--backgroundsecundario_alt));
-	--backgroundtertiary_v:			var(--backgroundtertiary_s, var(--background));
+	--backgroundtertiary_v:			var(--backgroundtertiary_s, var(--background_terciario));
 	--backgroundfloating_v:			var(--backgroundfloating_s, var(--background_janela_flutante));
 }	
 .theme-light:not(.userProfileOuterThemed__6eb84), .theme-dark:not(.userProfileOuterThemed__6eb84), .theme-amoled:not(.userProfileOuterThemed__6eb84) {
