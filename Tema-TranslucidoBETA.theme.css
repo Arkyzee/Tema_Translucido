@@ -1,0 +1,49 @@
+/**
+ * @name Tema Translúcido
+ * @description É apenas um tema translúcido simples.
+ * @author Arkyzee
+ * @version ersão de testes
+ */
+
+	/* LEIA-ME!!!!!!
+	
+	O código abaixo muda as cores e opacidade do seu discord
+	de acordo com o exemplo abaixo.
+	-------------------------------------------------------------------
+	
+	(DE 0 À 255)
+
+	|    R     |     G     |     B    |     A     |
+	|(Vermelho)|   VERDE   |    AZUL  | OPACIDADE | IGUAL A: BRANCO;
+	|	255    |    255    |    255   |    255    |
+
+	-------------------------------------------------------------------
+	*/
+@import url(https://arkyzee.github.io/Tema_Translucido/definicoes.css);
+	
+:root{
+
+	/*fonte */
+	--fonte: "gg sans", "Noto Sans";
+	
+	/*Cores                      R    G    B    A */
+	--cor_de_mencao: 			 0 ,  50, 100, 100;
+	--cor_positiva:              0 ,  30,  50, 100;
+	--cor_de_aviso:	 			255, 157,  0 , 100;
+	--cor_perigosa: 			255,  0 ,  0 , 100;
+
+	--texto_brilhante: 			255, 255, 255, 100;
+	--texto_muito_claro:  		200, 200, 200, 100;
+	--text_claro: 				180, 180, 180, 100;
+	--texto_escuro:				150, 150, 150, 100;
+	--texto_mais_escuro: 		140, 140, 140, 100;
+	--tao_escuro_que_tu_nem_ve:	120, 120, 120, 100;
+
+    /*Plano de fundo               R   G   B   A */
+
+	--background-principal:		   0 , 30, 40, 0.4;
+    --background_primario:         0 , 30, 40, 0.4;
+    --background_secundario:       0 , 30, 40, 0.4;
+    --background_secundario_alt:   0 , 30, 40, 0.4;
+    --background_terciario:        0 , 30, 40, 0.4;
+	--background_janela_flutante:  20 , 20 , 20 , 0.8;
