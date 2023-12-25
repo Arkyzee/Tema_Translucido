@@ -27,23 +27,23 @@
 	--fonte: "gg sans", "Noto Sans";
 	
 	/*Cores                      R    G    B    A */
-	--cor_de_mencao: 			 0 ,  50, 100, 100;
-	--cor_positiva:              0 ,  30,  50, 100;
-	--cor_de_aviso:	 			255, 157,  0 , 100;
-	--cor_perigosa: 			255,  0 ,  0 , 100;
+	--cor_de_mencao: 			 0 , 190, 190, 1;
+	--cor_positiva:              0 , 190, 190, 1;
+	--cor_de_aviso:	 			255,  0 ,  0 , 1;
+	--cor_perigosa: 			255,  0 ,  0 , 1;
 
-	--texto_brilhante: 			255, 255, 255, 100;
-	--texto_muito_claro:  		200, 200, 200, 100;
-	--text_claro: 				180, 180, 180, 100;
-	--texto_escuro:				150, 150, 150, 100;
-	--texto_mais_escuro: 		140, 140, 140, 100;
-	--tao_escuro_que_tu_nem_ve:	120, 120, 120, 100;
+	--texto_brilhante: 			255, 255, 255, 1;
+	--texto_muito_claro:  		200, 200, 200, 1;
+	--text_claro: 				180, 180, 180, 1;
+	--texto_escuro:				150, 150, 150, 1;
+	--texto_mais_escuro: 		140, 140, 140, 1;
+	--tao_escuro_que_tu_nem_ve:	120, 120, 120, 1;
 
     /*Plano de fundo               R   G   B   A */
 
-	--background-principal:		   0 , 30, 40, 0.4;
-    --background_primario:         0 , 30, 40, 0.4;
-    --background_secundario:       0 , 30, 40, 0.4;
-    --background_secundario_alt:   0 , 30, 40, 0.4;
-    --background_terciario:        0 , 30, 40, 0.4;
-	--background_janela_flutante:  20 , 20 , 20 , 0.8;
+	--background-principal:		   0 , 0, 0, 0.1;
+    --background_primario:         0 , 0, 0, 0.1;
+    --background_secundario:       0 , 0, 0, 0.1;
+    --background_secundario_alt:   0 , 0, 0, 0.1;
+    --background_terciario:        0 , 40, 50, 0.6;
+	--background_janela_flutante:  20, 20, 20, 0.5;
